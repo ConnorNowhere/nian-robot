@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
+
 class config(object):
 	def __init__(self):
 		self.em = '' # email

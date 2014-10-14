@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #-*- coding: utf-8 -*-
 import urllib
 import urllib2
@@ -52,7 +53,8 @@ def logger(level,action,data):
     if configLevel >= currentLevel:
         currentTime = getCurrentTime()
         color = "\033[3%im"%currentLevel
-        print color+currentTime+" ["+level+"]\033[0m ** "+action+" ** "+data
+        print color+currentTime+" ["+level+"]\033[0m"
+        print "\033[32m|== "+action+" ==\033[0m "+data
     
 def login(opener,headers):
     global config
@@ -179,14 +181,40 @@ def addStep(opener,headers):
      
     logger('INFO','AddStep','result:'+out)
 
+def checkComment(opener,headers):
+    print ""
+
+def sendComment(opener,headers):
+    content = '测试评论'
+    dream_id = '232169'
+    t = random.random()
+    data = {'content':content,'dream_id':dream_id,'t':t}
+    data = urllib.urlencode(data)
+
+    logger('INFO','SendComment',data)
+
+    request = urllib2.Request('http://nian.so/comment_query.php',data,headers)
+    response = opener.open(request)
+    out = response.read()
+    response.close()
+
+    #print ""
+
 if __name__ == '__main__':
     cookies = urllib2.HTTPCookieProcessor()
     opener = urllib2.build_opener(cookies)
-     
     headers = {'Referer':'http://nian.so','User-Agent':'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36'}
-
     opener = login(opener,headers)
+	
+    commandList = ['check_comment','send_comment']
 
-    addStep(opener,headers)
-       
-    raw_input("pause >>>")
+    for command in commandList:
+        if command == 'check_comment':
+            checkComment(opener,headers)
+        elif command == 'send_comment':
+            sendComment(opener,headers)
+        elif command == 'add_step':
+            addStep(opener,headers)
+    
+    print ""   
+    raw_input("press enter key to continue >>>")
