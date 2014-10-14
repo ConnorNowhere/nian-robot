@@ -186,9 +186,9 @@ def checkComment(opener,headers):
 
 def sendComment(opener,headers):
     content = '测试评论'
-    dream_id = '232169'
+    dream_id = '146790'
     t = random.random()
-    data = {'content':content,'dream_id':dream_id,'t':t}
+    data = {'content':content,'id':dream_id,'t':t}
     data = urllib.urlencode(data)
 
     logger('INFO','SendComment',data)
@@ -198,6 +198,8 @@ def sendComment(opener,headers):
     out = response.read()
     response.close()
 
+    #data = {'id':
+    #request = urllib2.Request('http://nian.so/push/push_web.php',data,headers)
     #print ""
 
 if __name__ == '__main__':
