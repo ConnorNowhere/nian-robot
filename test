@@ -1,0 +1,64 @@
+v class="me_box">
+<a href="#!/user/117401" class="me_head" style="background-image:url(http://img.nian.so/head/117401.jpg!head)" onclick="addbox('user.php?uid=117401')"></a>
+
+<div class="me_type">
+<a href="#!/user/117401"><span class="me_user" onclick="addbox('user.php?uid=117401')">树莓派</span></a> 在「计划任务」留言
+</div>
+<a href="#!/dream/146790" class="me_content" onclick="addbox('thing.php?id=146790&&comment')">测试评论</a>
+<div class="me_time">10-14 23:45</div>
+</div>
+<div class="me_box">
+<a href="#!/user/117401" class="me_head" style="background-image:url(http://img.nian.so/head/117401.jpg!head)" onclick="addbox('user.php?uid=117401')"></a>
+
+<div class="me_type">
+<a href="#!/user/117401"><span class="me_user" onclick="addbox('user.php?uid=117401')">树莓派</span></a> 在「计划任务」留言
+</div>
+<a href="#!/dream/146790" class="me_content" onclick="addbox('thing.php?id=146790&&comment')">留言测试</a>
+<div class="me_time">10-14 20:28</div>
+</div>
+<div class="me_box">
+<a href="#!/user/28782" class="me_head" style="background-image:url(http://img.nian.so/head/28782.jpg!head)" onclick="addbox('user.php?uid=28782')"></a>
+
+			<div class="me_type">
+<a href="#!/user/28782"><span class="me_user" onclick="addbox('user.php?uid=28782')">对镜面sUm_<div class='vip' title='Pro'></div></span></a> 在「每天记录一些事。」提到你
+</div>
+<a href="#!/dream/41067" class="me_content" onclick="addbox('thing.php?id=41067&&comment')">@micheal&nbsp;&nbsp;入职！快说说是啥&nbsp;</a>
+<div class="me_time">05-13 21:52</div>
+			</div>
+<div class="me_box">
+<a href="#!/user/28782" class="me_head" style="background-image:url(http://img.nian.so/head/28782.jpg!head)" onclick="addbox('user.php?uid=28782')"></a>
+
+			<div class="me_type">
+<a href="#!/user/28782"><span class="me_user" onclick="addbox('user.php?uid=28782')">对镜面sUm_<div class='vip' title='Pro'></div></span></a> 在「每天记录一些事。」提到你
+</div>
+<a href="#!/dream/41067" class="me_content" onclick="addbox('thing.php?id=41067&&comment')">@micheal&nbsp;&nbsp;体检！&nbsp;为嘛呢0&nbsp;0</a>
+<div class="me_time">05-13 13:15</div>
+			</div>
+<div class="me_box">
+<a href="#!/user/28782" class="me_head" style="background-image:url(http://img.nian.so/head/28782.jpg!head)" onclick="addbox('user.php?uid=28782')"></a>
+
+			<div class="me_type">
+<a href="#!/user/28782"><span class="me_user" onclick="addbox('user.php?uid=28782')">对镜面sUm_<div class='vip' title='Pro'></div></span></a> 在「每天记录一些事。」提到你
+</div>
+<a href="#!/dream/41067" class="me_content" onclick="addbox('thing.php?id=41067&&comment')">@micheal&nbsp;&nbsp;为啥我才收到这条！</a>
+<div class="me_time">05-12 15:46</div>
+			</div>
+<div class="me_box">
+<a href="#!/user/28782" class="me_head" style="background-image:url(http://img.nian.so/head/28782.jpg!head)" onclick="addbox('user.php?uid=28782')"></a>
+
+			<div class="me_type">
+<a href="#!/user/28782"><span class="me_user" onclick="addbox('user.php?uid=28782')">对镜面sUm_<div class='vip' title='Pro'></div></span></a> 在「每天记录一些事。」提到你
+</div>
+<a href="#!/dream/41067" class="me_content" onclick="addbox('thing.php?id=41067&&comment')">@micheal&nbsp;&nbsp;[亲亲]&nbsp;哈哈&nbsp;好感动~</a>
+<div class="me_time">05-01 13:22</div>
+			</div>
+<div class="me_box">
+<a href="#!/user/52392" class="me_head" style="background-image:url(http://img.nian.so/head/52392.jpg!head)" onclick="addbox('user.php?uid=52392')"></a>
+
+						<div class="me_type">
+<a href="#!/user/52392"><span class="me_user" onclick="addbox('user.php?uid=52392')">梦猫<div class='vip' title='Pro'></div></span></a> 赞了你的
+</div>
+<a href="#!/dream/81899" class="me_content" onclick="addbox('thing.php?id=81899&&comment')">「更新助手&nbsp;For&nbsp;念」
+</a>
+<div class="me_time">03-13 10:43</div>
+		</div>
