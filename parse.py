@@ -10,6 +10,11 @@ def parseNotice(noticeText):
     array = rule.findall(unicode(noticeText,'utf-8')) 
     for val in array:
         print val
+    print "----"
+    rule = re.compile(ur'uid=\d+\'\)">.+</span></a>.+')
+    array = rule.findall(unicode(noticeText,'utf-8'))
+    for val in array:
+        print val
 
 if __name__ == "__main__":
     f = open('./test','r')
